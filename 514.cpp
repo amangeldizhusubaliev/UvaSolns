@@ -7,9 +7,7 @@ int main() {
     cin.tie(0); cout.tie(0);
     vector<int> v;
     int n;
-    bool q = false; 
     while (cin >> n && n != 0) {
-        q = true;
         v.resize(n);
         while (cin >> v[0] && v[0] != 0) {
             stack<int> s;
